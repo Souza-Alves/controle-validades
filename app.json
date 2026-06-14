@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Controle de Validades",
+    "slug": "controle-validades",
+    "scheme": "controle-validades",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/market4u.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7CB24B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.controlevalidades.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#7CB24B"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.controlevalidades.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-mail-composer",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#7CB24B",
+          "image": "./assets/market4u.png",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "95df224e-d59c-497d-9419-34a5c462c90a"
+      }
+    }
+  }
+}
